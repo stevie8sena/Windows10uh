@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="ninjacats2017.windows10updatehistory.MainActivity14393_1198">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/desc1198"
+            android:layout_width="315dp"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:text="May 9, 2017—KB4019472 (OS Build 14393.1198)"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/isi1198"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This security update includes quality improvements. No new operating system features are being introduced in this update. Key changes include:\n\n
+#Addressed issue that causes Windows Explorer’s CPU usage to be at 20% when an executable file is hosted on a file share and its Offline attribute is set.\n
+#Addressed an issue where crash dump generation hangs at 0% on a system with over 750 GB of physical memory and Hyper-V enabled. \n
+#Addressed an issue with a paging file space leak that leads Windows to a crash, blue screen, or data loss. "
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/desc1198"
+            android:layout_alignLeft="@+id/desc1198"
+            android:layout_alignStart="@+id/desc1198"
+            android:layout_marginTop="11dp"
+            android:layout_alignRight="@+id/desc1198"
+            android:layout_alignEnd="@+id/desc1198" />
+
+        <TextView
+            android:id="@+id/howto1198"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to get this update: This update will be downloaded and installed automatically from Windows Update. To get the stand-alone package for this update, go to the Microsoft Update Catalog website."
+            android:textColor="@android:color/white"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/isi1198"
+            android:layout_alignLeft="@+id/isi1198"
+            android:layout_alignStart="@+id/isi1198"
+            android:layout_alignRight="@+id/isi1198"
+            android:layout_alignEnd="@+id/isi1198" />
+
+        <Button
+            android:id="@+id/btn1198"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="visit Microsoft Update Catalog"
+            android:layout_below="@+id/howto1198"
+            android:layout_alignLeft="@+id/howto1198"
+            android:layout_alignStart="@+id/howto1198" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

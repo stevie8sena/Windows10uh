@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="ninjacats2017.windows10updatehistory.MainActivity15063_250">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/desc250"
+            android:layout_width="315dp"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:text="April 25, 2017—KB4016240 (OS Build 15063.250)"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/isi250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/desc250"
+            android:layout_alignStart="@+id/desc250"
+            android:layout_below="@+id/desc250"
+            android:layout_marginTop="15dp"
+            android:text="This non-security update includes quality improvements. No new operating system features are being introduced in this update."
+            android:textColor="@android:color/white"
+            android:layout_alignRight="@+id/desc250"
+            android:layout_alignEnd="@+id/desc250" />
+
+        <TextView
+            android:id="@+id/howto250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/isi250"
+            android:layout_alignStart="@+id/isi250"
+            android:layout_below="@+id/isi250"
+            android:layout_marginTop="13dp"
+            android:text="How to get this update: This update will be downloaded and installed automatically from Windows Update. To get the stand-alone package for this update, go to the Microsoft Update Catalog website."
+            android:textColor="@android:color/white"
+            android:layout_alignRight="@+id/isi250"
+            android:layout_alignEnd="@+id/isi250" />
+
+        <Button
+            android:id="@+id/btn250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/howto250"
+            android:layout_alignStart="@+id/howto250"
+            android:layout_below="@+id/howto250"
+            android:text="visit Microsoft Update Catalog" />
+
+        <TextView
+            android:id="@+id/isi2250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn250"
+            android:layout_alignStart="@+id/btn250"
+            android:layout_below="@+id/btn250"
+            android:text="The package size for the x86 version is 215 MB and the package size for the x64 version is 341 MB."
+            android:textColor="@android:color/white"
+            android:layout_alignRight="@+id/howto250"
+            android:layout_alignEnd="@+id/howto250" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

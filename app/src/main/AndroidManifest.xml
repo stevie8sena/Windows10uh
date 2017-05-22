@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ninjacats2017.windows10updatehistory">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity1703"
+            android:label="Windows 10 Version 1703" />
+        <activity
+            android:name=".MainActivity15063_250"
+            android:label="OS Build 15063.250" />
+        <activity
+            android:name=".MainActivity15063_138"
+            android:label="OS Build 15063.138" />
+        <activity
+            android:name=".MainActivity15063_13"
+            android:label="OS Build 15063.13" />
+        <activity
+            android:name=".MainActivity1607"
+            android:label="Windows 10 Version 1607" />
+        <activity
+            android:name=".MainActivity1511"
+            android:label="Windows 10 Version 1511" />
+        <activity
+            android:name=".MainActivity15063_296"
+            android:label="OS Build 15063.296" />
+        <activity
+            android:name=".MainActivity10586_916"
+            android:label="OS Build 10586.916"/>
+        <activity
+            android:name=".MainActivity14393_1198"
+            android:label="OS Build 14393.1198"></activity>
+    </application>
+
+</manifest>

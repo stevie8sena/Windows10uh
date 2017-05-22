@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="ninjacats2017.windows10updatehistory.MainActivity15063_13">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/desc13"
+            android:layout_width="315dp"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:text="April 5, 2017—KB4016251 (OS Build 15063.13)"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/isi13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This update includes quality improvements. No new operating system features are being introduced in this update. Key changes include:\n\n
+#Addressed issue with Windows audio devicegraph isolation burning CPU-endless loop due to defective APOs.\n
+#Addressed installation issue with V3 XPS-based printer connections\n
+#Addressed issue with virus protection product driver install triggering a system crash on build 15060 configured with DeviceGuard.\n
+#Addressed issue with Surface USB."
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/desc13"
+            android:layout_alignLeft="@+id/desc13"
+            android:layout_alignStart="@+id/desc13"
+            android:layout_marginTop="11dp"
+            android:layout_alignRight="@+id/desc13"
+            android:layout_alignEnd="@+id/desc13" />
+
+        <TextView
+            android:id="@+id/howto13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to get this update: This update will be downloaded and installed automatically from Windows Update. To get the stand-alone package for this update, go to the Microsoft Update Catalog website."
+            android:textColor="@android:color/white"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/isi13"
+            android:layout_alignLeft="@+id/btn13"
+            android:layout_alignStart="@+id/btn13"
+            android:layout_alignRight="@+id/isi13"
+            android:layout_alignEnd="@+id/isi13" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="visit Microsoft Update Catalog"
+            android:layout_below="@+id/howto13"
+            android:layout_alignLeft="@+id/isi13"
+            android:layout_alignStart="@+id/isi13" />
+
+        <TextView
+            android:id="@+id/isi213"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The package size for the X86 version is 7.03 MB and the package size for the x64 version is 11 MB."
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/btn13"
+            android:layout_alignLeft="@+id/btn13"
+            android:layout_alignStart="@+id/btn13"
+            android:layout_alignRight="@+id/howto13"
+            android:layout_alignEnd="@+id/howto13" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
